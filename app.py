@@ -5,15 +5,6 @@ import os # Make sure os is imported
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
-# --- ADD THIS DEBUGGING BLOCK ---
-st.write("### Debugging Secrets")
-if 'GOOGLE_API_KEY' in st.secrets:
-    st.success("API Key found in st.secrets!")
-else:
-    st.error("API Key not found in st.secrets.")
-    # This will show you all the keys it *did* find, if any.
-    st.write("Available secrets:", st.secrets.keys())
-# --- END DEBUGGING BLOCK ---
 
 # --- 1. SETUP AND CONFIGURATION ---
 
@@ -170,8 +161,8 @@ def generate_sat_question(original_text, subtest, domain, score_band):
 
 # --- 4. STREAMLIT WEB INTERFACE ---
 
-st.title("🤖 AI-Powered SAT Question Generator")
-st.markdown("This tool uses AI to create leveled SAT questions based on your text and specifications.")
+st.title("🤖 AI-Powered College Entrance Exam Question Generator")
+st.markdown("This tool uses AI to create leveled test questions based on your text and specifications.")
 
 # Create columns for a cleaner layout
 col1, col2, col3 = st.columns(3)
@@ -199,4 +190,5 @@ if st.button("Generate Question"):
             st.header("Generated Output")
             st.markdown(response)
     else:
+
         st.warning("Please paste some text to generate a question.")
