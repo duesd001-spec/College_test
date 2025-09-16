@@ -126,7 +126,7 @@ def generate_sat_question(original_text, subtest, domain, score_band):
     - Analyze the original text provided below.
     - Rewrite it so its vocabulary, sentence structure, and complexity are appropriate for a student in **Score Band {score_band}**.
     - For lower score bands (1-3), use simpler language and shorter sentences.
-    - For higher score bands (5-7), use more sophisticated vocabulary and more complex sentence structures.
+    - For higher score bands (6-7), use more sophisticated vocabulary and more complex sentence structures.
     - Present the result under the heading "Leveled Text:".
 
     **Step 2: Generate a Question from the Leveled Text**
@@ -192,3 +192,4 @@ if st.button("Generate Question"):
     else:
 
         st.warning("Please paste some text to generate a question.")
+
