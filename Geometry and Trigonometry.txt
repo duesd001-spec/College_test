@@ -5,9 +5,56 @@ Geometry and Trigonometry
 **Question**
 Triangles EFG and JKL are confruent, where E,F, and G correspond to J,K, and L, respectively. The Mmeasure of angle E is 45 degrees and the measure for angle F is 20 degrees. What is the measure of angle J? 
 **Choices**
-
+(A) 20 Degrees
+(B) 45 Degrees
+(C) 135 Degrees
+(D) 160 Degrees
 **Feedback**
+Choice B is correct. It's given that trianlges EFG and JKL are congruent such that angle E corresponds to angle J. Corresponding angles of congruent triangles are congruent, so angle E and J must be congruent. Therefore, if the measure of angle E is 45 degrees, then the measure of angle J is also 45 degrees. 
 **Correct Answer:** 
+(B) 45 Degrees
+-----------
+**Leveled Text:**
+
+**Question**
+What is the area, in square inches, of a rectangle with a length of 7 inches and a width of 6 inches. 
+**Choices**
+(A) 13
+(B) 20
+(C) 42
+(D) 84
+**Feedback**
+The area of a rectangle is given by the formula - Area = Length x Width. It is stated that the length of the rectangle is 7 inches and the width of the rectangle is 6 inches. Substituting the values correctly gives you the following formula - Area = 7(length) X 6(width). Calculating that formula give you an area of 42 sq inches.  
+**Correct Answer:** 
+(C) 42
+-----------
+**Leveled Text:**
+
+**Question**
+The side length of a square is 55 centimeters (cm). What is the area, in cm^2, of the square 
+**Choices**
+(A) 110 
+(B) 220
+(C) 3025
+(D) 12,100
+**Feedback**
+Choice C is correct. The area A, in square centimetes (cm^2), of a square with side length (s), in cm, is given by the formula A = s^2. It is given that the square has a side length of 55 cm. Substituting 55 for s in the formula A = s2 yeilds A = 55^2, or A = 3025 
+**Correct Answer:** 
+(C) 3025
+-----------
+**Leveled Text:**
+
+**Question**
+Triangle R has an area of 80 square centimetes (cm^2). Square S has a side length of 4cm. What is the total area of Triangle R and Square S, in cm^2?
+**Choices**
+(A) 42
+(B) 44
+(C) 84 
+(D) 96
+**Feedback**
+Choice D is correct. It’s given that triangle R has an area of 80 cm^2 . The area of a square is length^2, where Length is the side length of the square. It's given that square S has side lengths of  4 cm. It follows that the area, in cm^2, of square S is 4^2, or 16 . Therefore, the total area, in cm^2, of triangle R and square S is 80+16, or 96.
+**Correct Answer:** 
+(D) 96
 -----------
 **Leveled Text:**
 
@@ -34,32 +81,6 @@ Triangles EFG and JKL are confruent, where E,F, and G correspond to J,K, and L, 
 **Choices**
 
 **Feedback**
-**Correct Answer:** 
------------
-**Leveled Text:**
-
-**Question**
-
-**Choices**
-
-**Feedback**
-**Correct Answer:** 
------------
-**Leveled Text:**
-
-**Question**
-
-**Choices**
-
-**Feedback**
-**Correct Answer:** 
------------
-**Leveled Text:**
-
-**Question**
-
-**Choices**
-
-**Feedback**
 
 **Correct Answer:** 
+
