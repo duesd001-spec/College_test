@@ -3,7 +3,7 @@ Geometry and Trigonometry
 **Leveled Text:**
 
 **Question**
-
+Triangles EFG and JKL are confruent, where E,F, and G correspond to J,K, and L, respectively. The Mmeasure of angle E is 45 degrees and the measure for angle F is 20 degrees. What is the measure of angle J? 
 **Choices**
 
 **Feedback**
@@ -61,4 +61,5 @@ Geometry and Trigonometry
 **Choices**
 
 **Feedback**
+
 **Correct Answer:** 
