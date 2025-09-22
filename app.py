@@ -177,7 +177,7 @@ with col2:
 with col3:
     score_band = st.selectbox("Select Score Band:", options=list(range(1, 8)))
 
-# Text area for user input
+# Text area for user input (Great if this could also include image)
 uploaded_text = st.text_area("Paste your text here:", height=250)
 
 # Generate button
@@ -192,4 +192,7 @@ if st.button("Generate Question"):
     else:
 
         st.warning("Please paste some text to generate a question.")
+
+#Feedback button that will allow iteration of the question
+
 
