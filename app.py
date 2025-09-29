@@ -114,7 +114,7 @@ def generate_sat_question(original_text, subtest, domain, score_band):
     # The LLM will handle this.
 
     # 2. Set up the LLM
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-latest", temperature=0.7)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0.7)
 
     # 3. Create a new, more powerful two-step prompt for the LLM
     prompt_template = """
@@ -194,6 +194,7 @@ if st.button("Generate Question"):
         st.warning("Please paste some text to generate a question.")
 
 #Feedback button that will allow iteration of the question
+
 
 
 
